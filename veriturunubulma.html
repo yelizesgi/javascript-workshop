@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="tr-TR">
+
+<head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8">
+    <title>merhaba javascript</title>
+</head>
+<script type="text/javascript" language="javascript">
+    // typeof         =  Değişkenin veri türünü geri döndürür.
+
+
+    var isim = "Yeliz"; // string
+    var sayi = 1; // Number
+    var mantiksal = true //boolean
+    var isimler1 = ["Yeliz", "Demet"];
+    var isimler2 = new Array("Yeliz", "Demet"); // Object Aray
+    var seneler = new Object(); // Object
+    var tanimsiz; // undefined
+    var bos = ""; //null
+    // typeof parentezler olmadan typeof isimler gibi yazılsada aynı sonucu verir.//
+    var depo1 = isim + ":" + tyoeof(isim); //String
+    document.write(depo1 + "<br>");
+    document.write(isim + ":" + typeof(isim) + "<br><br>")
+
+    var depo2 = sayi + ":" + tyoeof(sayi); //Number
+    document.write(depo2 + "<br>");
+    document.write(sayi + ":" + typeof(sayi)
+        "<br><br>")
+
+
+    var depo3 = mantiksal + ":" + tyoeof(mantiksal); //Boolean
+    document.write(depo3 + "<br>");
+    document.write(mantiksal + ":" + typeof(mantiksal) + "<br><br>")
+
+    var depo4 = isimler1 + ":" + tyoeof(isimler1); //Object
+    document.write(depo4 + "<br>");
+    document.write(isimler1 + ":" + typeof(isimler1) + "<br><br>")
+
+
+    var depo5 = isimler2 + ":" + tyoeof(isimler2); //Object Array
+    document.write(depo5 + "<br>");
+    document.write(isimler2 + ":" + typeof(isimler2) + "<br><br>")
+
+    var depo6 = nesneler + ":" + tyoeof(nesneler); //Object
+    document.write(depo6 + "<br>");
+    document.write(nesneler + ":" + typeof(nesneler) + "<br><br>")
+
+    var depo7 = tanimsiz + ":" + tyoeof(tanimsiz); //Undefined
+    document.write(depo7 + "<br>");
+    document.write(tanimsiz + ":" + typeof(tanimsiz) + "<br><br>")
+
+    var depo8 = bos + ":" + tyoeof(bos); //null (String)
+    document.write(depo8 + "<br>");
+    document.write(bos + ":" + typeof(bos) + "<br><br>")
+</script>
+
+<body>
+</body>
+
+</html>

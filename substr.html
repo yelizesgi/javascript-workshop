@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr-TR">
+
+<head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8">
+    <title>merhaba javascript</title>
+</head>
+<script type="text/javascript" language="javascript">
+    // substr()    :  kendisine verilecek olan parametreler ile tanımlanmış değişken içeriği aralığında bulunan değerleri kopyalayarak yeni bir içerik oluşturur ve oluşturduğu içeriği geriye döndürür.
+    // 1.Parametre : Başlangıç karakter sıra numarası
+    // 2.Parametre : kaç karakter alacağı (karakter sayısı)
+    var metin = "Javascript dünya üzerinde kullanılan en yaygın script dilidir.";
+    document.write(metin + "<br>");
+
+    //var sonuc  = metin.substr(11);
+    //document.write(sonuc);
+
+    //var sonuc = metin.substr(11,15); // Bu şekilde yazılmıyor, ikinci parametrede kaç karakter olacağı yazılır
+    /*var sonuc = metin.substr(11, 5);
+    document.write(sonuc); */
+
+    //var sonuc = metin.substr(5, 11); // başlangıç parametresi bitiş parametresinden küçük olabilir. Çünkü burds küçük sayı karakter sayısının ne kadar olması gerektiğini temsil eder kaçıncı karakterden başlayacağını değil.
+    //document.write(sonuc);
+
+    //var sonuc = metin.substr(-15); // substr negatif değerde alabilir. Negatif değer alması demek parametreyi tersden saymak demek. 
+    //document.write(sonuc);
+
+    var sonuc = metin.substr(-15, 6);
+    document.write(sonuc);
+</script>
+
+<body>
+</body>
+
+</html>

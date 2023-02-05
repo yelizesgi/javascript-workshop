@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr-TR">
+
+<head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8">
+    <title>merhaba javascript</title>
+</head>
+
+<body>
+    <div id="Birinci">Merhaba</div>
+    <div id="İkinci">Javascript</div>
+    <pre>
+    <script type="text/javascript" language="javascript">
+        // alert()               =   Sayfa içerisinde uyarı penceresi açar. Belirtilen uyarıyı ekranda gösterir.
+        // window.alertalert()   =   Sayfa içerisinde uyarı penceresi açar. Belirtilen uyarıyı ekranda gösterir.(nasnesel-BOM Tarayıcının browserını kullanır)
+        alert("Merhaba");
+        window.alert("Merhaba");
+        // document.write() ve document.writeln() kullanımları
+        // document.write()      =    Dokümana çıktı yapar.  (nesnel- DOM)
+        // document.writeln()    =    Dokümana çıktı yapar. (Yeni satırbaşı yapar) (nesnel- DOM)
+
+        document.write("Merhaba ben javascript öğreniyorum");
+        document.writeln("Merhaba ben javascript öğreniyorum");
+        // console.log kullunımı        =  Tarayıcı konsoluna değer ataması yapar veya kayıt atar.
+        console.log("Yeliz Eşgi"); 
+        // innerHTML kullanımı     = HTML dokümanı içerisinde bulunan HTML elementi/etiketi/değerlerini etki eder, veri gönderir. Veri değişimi yapar.
+
+document.getElemanById("Birinci").innerHTML = "Yeliz Eşgi";
+document.getElemanById("ikinci").innerHTML = "Javascript Eğitim Seti";
+
+      // debugger kullanımı   =  kod bloglarında hataların olup olmadığını satır satır incelenmeye yarar.
+      
+    </script>
+  </pre>
+</body>
+
+</html>

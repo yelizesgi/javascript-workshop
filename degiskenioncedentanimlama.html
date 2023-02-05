@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="tr-TR">
+
+<head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8">
+    <title>merhaba javascript</title>
+</head>
+<script type="text/javascript" language="javascript">
+    // Değişkeni önceden tanımlayarak verisini sonradan isteme
+    // var isim   =  "Yeliz";  normalde bu şekilde bir depolama yapıyorduk
+
+    /*var isim;
+    document.write(isim);
+    */
+    // sonuç undifend (tanımsız) çünkü değişken atanmış fakat belirtilmemiş. eğer isim yerini document.write(soyisim); yazılırsa bu şekilde ekranda hiçbirşey çıkmaz çünkü soyisim diye bir değişken tanımlanmadı
+    /*var isim, soyisim, ders;
+    // veri atamasını sonradan yapmak için var değişkeni kullanılmaz.
+    isim = "Yeliz";
+    soyisim = "Eşgi";
+    ders = "Javascript"
+
+
+    document.write(isim + "<br/>");
+    document.write(soyisim + " <br/>");
+    document.write(ders);
+    // sonuç Yeliz olarak görünür.
+
+    let isim, soysim, ders;
+    isim = "Yeliz";
+    soyisim = "Eşgi";
+    ders = "Javascript"
+
+
+    document.write(isim + "<br/>");
+    document.write(soyisim + " <br/>");
+    document.write(ders);
+    // sonuç var değişken türü ile aynı olur.
+    */
+
+    const isim, soyisim, ders;
+    isim = "Yeliz";
+    soyisim = "Eşgi";
+    ders = "Javascript"
+
+
+    document.write(isim + "<br/>");
+    document.write(soyisim + " <br/>");
+    document.write(ders);
+    // sonuç çıktı vermez çünkü const sabit yapılı bir veri türüdür başlangıçtaki tanımlamadan farklı bir değer verilemez. Bundan dolayı veri ekleme yapılacak ise const kullanılmaz.
+</script>
+
+<body>
+</body>
+
+</html>

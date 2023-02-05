@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr-TR">
+
+<head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8">
+    <title>merhaba javascript</title>
+</head>
+<script type="text/javascript" language="javascript">
+    /* global alan 
+                                                                 {
+
+                                                                  local alan
+                                                                 }
+                                                                 */
+    /* var isim = "Yeliz";
+     if (true) {
+         var isim = "Murat";
+         document.write(isim);
+     }  sonuç Murat Murat çünkü isim değişkenin kapsam alanı süslü parentezin içerisinde true değerinden dolayı değişti, false olsa idi sadece Yeliz yazacak ve koşul ifadesi çalışmayacaktı.
+
+     document.write(isim); 
+     */
+
+    /*let isim = "Yeliz";
+
+    if (true) {
+        let isim = "Murat";
+        document.write(isim);
+    }
+
+    document.write(isim);  sonuç Yeliz Murat olur 
+    */
+
+    /*
+    const isim = "Yeliz";
+
+    if (true) {
+        const isim = "Murat";
+        document.write(isim);
+    }
+
+    document.write(isim);
+    sonuç Yeliz Murat olur
+    */
+
+
+
+    /* if (true) {
+         let isim = "Murat";
+
+     }
+
+     document.write(isim); sonuç kod bloğu çalışmaz kapsam değişkenin kapsam alanı farklı yani local alandaki değişken global alanda çağrılamıyor. süslü parantezin içerisinde document.write(isim) kodu ile ekrana çağırılmalı. Bu durum var ve const değişken türlerinde de aynıdır.
+*/
+    // local deki bir alanı globalde nasıl tanımlıyoruz var, let ya da const değişken türünü kullanmaz isek local alanı global alana tanmılamış oluruz.
+    if (true) {
+        isim = "Murat";
+    }
+    document.write(isim);
+</script>
+
+<body>
+</body>
+
+</html>

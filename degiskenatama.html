@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr-TR">
+
+<head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8">
+    <title>merhaba javascript</title>
+</head>
+<script type="text/javascript" language="javascript">
+    // Değişken tırnakları ya ' (tek tırnak) ya da " (çift tırnak) ile başlar ve başladığı şekilde biter.
+    // Tırnaklar içerisinde aynı ifadedeki tırnağı kullanmak gerekecek olursa muhakkak \ (ters slash) kullanılmalıdır.
+    //var isim   =  "Dünyada ve Türkiye'de en çok kullanılan dil Javascript'tir";
+    //document.write(isim); 
+
+    //var isim = 'Dünyada ve Türkiye'de en çok kullanılan dil Javascript 'tir';
+    //document.write(isim);  Hatalı kullanım
+
+    var isim = 'Dünyada ve Türkiye\'de en çok kullanılan dil Javascript\'tir';
+    document.write(isim); //Doğru kullanım 
+
+    //var isim = "Yeliz";
+    //document.write(isim);
+
+    //var isim   = 'Yeliz'
+    //document.Write(isim);
+
+
+    //var isim   =   'Yeliz";
+    //document.write(isim);    Hatalı Kullanım
+
+    var isim = "8";
+    document.write(isim); // Burada sayısal bir değer olarak değil, string bir ifade olarak algılanır.
+
+    var isim = 8;
+    document.write(isim); // Sayısal bir değer olarak algılanır rakamsal bir değer taşır.
+
+
+    var isim = "Yeliz';
+    document.write(isim);
+    Hatalı kullanım
+</script>
+
+<body>
+</body>
+
+</html>
