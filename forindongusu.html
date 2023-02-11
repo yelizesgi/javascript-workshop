@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
+    <title>merhaba javascript</title>
+  </head>
+  <script type="text/javascript" language="javascript">
+    var cicek = ["Gül", "Papatya", "Orkide", "Menekşe"];
+    document.write(cicek + "<br><br>");
+
+    var sonuc;
+    for (sonuc in cicek) {
+      if (cicek[sonuc] == "Gül") {
+        document.write(
+          "Gül: " +
+            "Hoş kokusu olan ve en çok kırmızı rengi tercih edilen bir çiçek türüdür.<br>"
+        );
+      } else if (cicek[sonuc] == "Papatya") {
+        document.write(
+          "Papatya: " + "Bozkırın sarı beyaz renkli narin çiceğidir.<br>"
+        );
+        document.write(
+          "Orkide: " +
+            "Asil insanların asil hediyesi olan bir çiçek türüdür.<br>"
+        );
+      } else if (cicek[sonuc] == "Menekşe") {
+        document.write(
+          "Menekşe: " + "Geleneksel Babaanne çiçeği her evin gözdesidir.<br>"
+        );
+      }
+    }
+  </script>
+  <body></body>
+</html>
