@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
+    <title>merhaba javascript</title>
+  </head>
+  <script type="text/javascript" language="javascript">
+    var ornek = {
+      renk1: "Siyah",
+      renk2: "Beyaz",
+      renk3: "Sarı",
+      renk4: "Mavi",
+      renk5: "Kırmızı",
+    };
+
+    var sonuc;
+    for (sonuc in ornek) {
+      document.write(ornek[sonuc] + "<br>");
+      if (sonuc == "renk3") {
+        break;
+      }
+    }
+  </script>
+  <body></body>
+</html>
