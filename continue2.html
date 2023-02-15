@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
+    <title>merhaba javascript</title>
+  </head>
+  <script type="text/javascript" language="javascript">
+    var renkler = ["Sarı", "Mavi", "Beyaz", "Yeşil", "Siyah", "Kırmızı"];
+    var sonuc;
+    for (sonuc in renkler) {
+      if (sonuc == 2) {
+        continue;
+      }
+      document.write(renkler[sonuc] + "<br>");
+    }
+
+    var cicekler = {
+      deger1: "Gül",
+      deger2: "Papatya",
+      deger3: "Orkide",
+      deger4: "Menekşe",
+      deger5: "Hanımeli",
+      deger6: "Sümbül",
+    };
+    var kontrol;
+    for (kontrol in cicekler) {
+      if (kontrol == "deger4") {
+        continue;
+      }
+      document.write(cicekler[kontrol] + "<br>");
+    }
+  </script>
+  <body></body>
+</html>
