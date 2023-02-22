@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
+    <title>merhaba javascript</title>
+  </head>
+  <script type="text/javascript" language="javascript">
+    function test(tutar, kdv = 18) {
+      var kdvtutari = (tutar / 100) * kdv;
+      var nettutar = tutar + kdvtutari;
+      document.write("Gelen Tutar: " + tutar + "<br>");
+      document.write("Gelen Tutarın KDV'si : " + kdvtutari + "<br>");
+      document.write("Toplam Tutar: " + nettutar);
+    }
+
+    test(1000);
+  </script>
+  <body></body>
+</html>
