@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
+    <title>merhaba javascript</title>
+  </head>
+  <script type="text/javascript" language="javascript">
+    function bir(a1, a2) {
+      function iki(b1, b2) {
+        function uc(c1, c2) {
+          return a1 + a2 + b1 + b2 + c1 + c2;
+        }
+        return uc;
+      }
+      return iki;
+    }
+
+    var sonuc = bir(5, 10)(15, 20)(2, 4);
+    document.write(sonuc);
+  </script>
+  <body></body>
+</html>
