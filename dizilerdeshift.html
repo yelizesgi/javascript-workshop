@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
+    <title>merhaba javascript</title>
+  </head>
+  <script type="text/javascript" language="javascript">
+    var dersler = new Array(
+      "Psikoloji",
+      "Sosyoloji",
+      "Felsefe",
+      "İlkçağ",
+      "Ortaçağ"
+    );
+    document.write("Dizinin orjinal hali: " + dersler + "<br>");
+
+    var deneme = dersler.shift();
+    document.write("Dizinin silinen: " + deneme + "<br>");
+    document.write("Dizinin son hali: " + dersler);
+  </script>
+  <body></body>
+</html>
