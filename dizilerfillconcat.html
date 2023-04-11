@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" conten="text/html; charset=utf-8" />
+    <title>merhaba javascript</title>
+  </head>
+  <script type="text/javascript" language="javascript">
+    var meyveler = [
+      "Elma",
+      "Armut",
+      "Kiraz",
+      "Kayısı",
+      "Karpuz",
+      "Kavun",
+      "Muz",
+      "Ananas",
+    ];
+    document.write(meyveler + "<br>");
+
+    meyveler.fill("Nar", 2);
+    document.write(meyveler + "<br><br>");
+
+    var beyazesya = new Array(
+      "Buzdolabı",
+      "Çamaşır Makinası",
+      "Bulaşık Makinası",
+      "Fırın",
+      "Ankastre"
+    );
+    var mobilya = new Array(
+      "Koltuk Takımı",
+      "Yemek Odası",
+      "Yatak Odası",
+      "Oturma Grubu"
+    );
+    document.write(beyazesya + "<br>");
+    document.write(mobilya + "<br>");
+
+    var islem = beyazesya.concat(mobilya);
+    document.write(islem);
+  </script>
+  <body></body>
+</html>
